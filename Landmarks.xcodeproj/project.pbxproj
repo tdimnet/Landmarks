@@ -33,6 +33,7 @@
 		B1A8FDB527A3E40D0089A5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8FD8B27A3E40C0089A5F8 /* ContentView.swift */; };
 		B1A8FDB627A3E40D0089A5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A8FD8C27A3E40D0089A5F8 /* Assets.xcassets */; };
 		B1A8FDB727A3E40D0089A5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A8FD8C27A3E40D0089A5F8 /* Assets.xcassets */; };
+		B1F47E52286C862000EEC214 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F47E51286C862000EEC214 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		B1A8FDAA27A3E40D0089A5F8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A8FDAE27A3E40D0089A5F8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B1A8FDB027A3E40D0089A5F8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B1F47E51286C862000EEC214 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		B1A8FD8427A3E40C0089A5F8 = {
 			isa = PBXGroup;
 			children = (
+				B1F47E51286C862000EEC214 /* HexagonParameters.swift */,
 				B1A8FD8927A3E40C0089A5F8 /* Shared */,
 				B1A8FD9827A3E40D0089A5F8 /* macOS */,
 				B1A8FDA127A3E40D0089A5F8 /* Tests iOS */,
@@ -357,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F47E52286C862000EEC214 /* HexagonParameters.swift in Sources */,
 				B1A8FDB427A3E40D0089A5F8 /* ContentView.swift in Sources */,
 				B1683AEF27A3EC8A0004CFF7 /* MapView.swift in Sources */,
 				B1A8FDB227A3E40D0089A5F8 /* LandmarksApp.swift in Sources */,
